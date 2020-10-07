@@ -1,0 +1,34 @@
+{
+    "telemetry.enableTelemetry": false,
+    "python.dataScience.debugJustMyCode": false,
+    "files.autoSave": "off",
+    "terminal.integrated.inheritEnv": false,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=torch"
+    ],
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.largeFileOptimizations": false,
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    },
+    "workbench.settings.editor": "ui",
+
+    // Color themes
+
+     // Specifies the color theme used in the workbench.
+    "workbench.colorTheme": "Solarized Dark",
+
+    // Specifies the preferred color theme for dark OS appearance when 'window.autoDetectColorScheme' is enabled.
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+
+    // Specifies the preferred color theme used in high contrast mode when 'window.autoDetectHighContrast' is enabled.
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+
+    // Specifies the preferred color theme for light OS appearance when 'window.autoDetectColorScheme' is enabled.
+    "workbench.preferredLightColorTheme": "Solarized Dark",
+
+
+
+    // Python path for the environment
+    "python.pythonPath": "opt/conda/envs/myenv/bin/python",
+}
