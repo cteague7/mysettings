@@ -19,4 +19,4 @@ print(Y_train_np.mean(), Y_train_np.std())
 
 # %%
 
-print('hello world!!!')
+print('hello world!')
